@@ -1,0 +1,57 @@
+.header {
+  height: 100px;
+
+  background-color: #fff;
+  text-align: center;
+}
+
+.header_bar {
+  display: inline-block;
+  line-height: 100px;
+}
+
+.logo {
+  margin-right: 42px;
+
+  display: inline-block;
+  height: 60px;
+
+  vertical-align: middle;
+}
+
+.menu {
+  padding: 0 42px;
+
+  display: inline-block;
+  height: 100%;
+
+  border-left: 1px solid #eae7e2;
+  border-right: 1px solid #eae7e2;
+}
+
+.menu .item {
+  padding: 0 0 0 42px;
+  display: inline-block;
+  height: 100%;
+
+  font-family: 'Open Sans', sans-serif;
+  color: #666;
+}
+
+.menu .item:first-child {
+  padding: 0;
+}
+
+.donate {
+  margin-left: 42px;
+  
+  display: inline-block;
+  width: 150px;
+  height: 40px;
+
+  color: #1b1f34;
+  background-color: #fff;
+  border: 1px solid #999;
+  border-radius: 5px;
+}
+
