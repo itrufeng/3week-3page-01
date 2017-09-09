@@ -3,6 +3,7 @@
 
   background-color: #fff;
   text-align: center;
+  border-bottom: 1px solid #eee;
 }
 
 .header_bar {
@@ -53,5 +54,61 @@
   background-color: #fff;
   border: 1px solid #999;
   border-radius: 5px;
+}
+
+.banner {
+  height: 576px;
+  background: linear-gradient(
+      rgba(100, 100, 100, 0.6), 
+      rgba(100, 100, 100, 0.6)
+    ), url('../images/hero.png');
+  background-repeat: round;
+  text-align: center;
+  line-height: 576px;
+}
+
+.banner_content {
+  display: inline-block;
+  
+  vertical-align: middle;
+  line-height: normal;
+}
+
+.banner .title {
+  display: inline-block;
+
+  color: #fff;
+  font-family: 'Amatic SC', cursive;
+  font-size: 50px;
+}
+
+.banner .buttons {
+  letter-spacing: 20px;
+}
+
+.banner .buttons .button {
+  display: inline-block;
+  width: 150px;
+  height: 40px;
+
+  color: #fff;
+  font-family: 'Amatic SC', cursive;
+  font-size: 20px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+.banner .buttons .highlight {
+  display: inline-block;
+  width: 150px;
+  height: 40px;
+
+  color: #fff;
+  font-family: 'Amatic SC', cursive;
+  font-size: 20px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background-color: rgba(200,200,200,0.5);
 }
 
