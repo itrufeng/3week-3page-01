@@ -12,7 +12,7 @@
 }
 
 .logo {
-  margin-right: 42px;
+  margin-right: 21px;
 
   display: inline-block;
   height: 60px;
@@ -21,7 +21,7 @@
 }
 
 .menu {
-  padding: 0 42px;
+  padding: 0 21px;
 
   display: inline-block;
   height: 100%;
@@ -31,12 +31,12 @@
 }
 
 .menu .item {
-  padding: 0 0 0 42px;
+  padding: 0 0 0 21px;
   display: inline-block;
   height: 100%;
 
   font-family: 'Open Sans', sans-serif;
-  color: #666;
+  color: #98979b;
 }
 
 .menu .item:first-child {
@@ -44,7 +44,7 @@
 }
 
 .donate {
-  margin-left: 42px;
+  margin-left: 21px;
   
   display: inline-block;
   width: 150px;
